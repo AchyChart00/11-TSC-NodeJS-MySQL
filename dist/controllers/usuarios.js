@@ -19,7 +19,7 @@ const postUsuario = (req, res) => {
     const { body } = req;
     res.json({
         msg: "postUsuario",
-        body
+        body,
     });
 };
 exports.postUsuario = postUsuario;

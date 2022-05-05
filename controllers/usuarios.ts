@@ -22,7 +22,7 @@ export const postUsuario = (req: Request, res: Response) => {
     const { body } = req;
     res.json({
         msg: "postUsuario",
-        body
+        body,
     })
 }
 
